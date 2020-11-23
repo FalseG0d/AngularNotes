@@ -1,12 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-# Advanced Django
+# Python Backdoor
 
 <!-- PROJECT LOGO -->
 <br />
@@ -19,14 +11,12 @@
 
   <p align="center">
     A Python Implementation of Backdoors to gain access to your projects or devices of your choice by attacking them. Made with a learning and education purpose in mind, not to be used for any nefarious activity.
+    <h2>Disclaimer: Do not attack someone without consent.</h2> <h2>These programs donot make you invisible.</h2>
     <br />
     <a href="https://github.com/FalseG0d?tab=repositories"><strong>Explore Other Projects »</strong></a>
     <br />
     <br />
-    ·
-    <a href="https://github.com/FalseG0d/PythonBackdoor/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/FalseG0d/PythonBackdoor/issues">Request Feature</a>
+    
   </p>
 </p>
 
@@ -37,6 +27,7 @@
 
 
 * [Getting Started](#getting-started)
+* [See In Action](#see-in-action)
 * [Prerquisites](#prerquisites)
 * [Built With](#built-with)
 * [Authors](#authors)
@@ -50,7 +41,7 @@ Simply Open the App or Feature you wish to learn by selecting a folder of your c
 1. Clone the repo
 
 ```sh
-git clone https://github.com/FalseG0d/PythonBackdoor.git
+git clone https://github.com/FalseG0d/PythonMalware.git
 ```
 
 2. Install Dependencies
@@ -61,7 +52,31 @@ pip install -r requirements.txt
 
 3. Find a way to install slave.py on the client system.
 
-4. Use master.p to access client system.
+4. Use master.py to access client system.
+
+
+
+## See In Action
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/FalseG0d/PythonMalware.git
+```
+
+2. Open PythonMalware
+
+3. Install Dependencies
+
+```sh
+pip install -r requirements.txt
+```
+
+4. Install and Run slave.py on the client system.
+
+5. Use master.p to access client system.
+
+6. Make sure that master and slave are on same server.
 
 
 ## Prerequisites
@@ -79,26 +94,11 @@ pip install -r requirements.txt
 
 Apoorv Garg - [@ApoorvG03132459](https://twitter.com/ApoorvG03132459) - u.garg.10@gmail.com
 
-Project Link: [https://github.com/FalseG0d/PythonBackdoor](https://github.com/FalseG0d/PythonBackdoor)
+Project Link: [https://github.com/FalseG0d/PythonMalware](https://github.com/FalseG0d/PythonMalware)
 
 ## Acknowledgments
 
-* **Django Documentation** - *Documentation* - [Documentation](https://github.com/FalseG0d)
 * **Inspiration** - *Inspiration* - [Inspiration](https://youtu.be/Du8BUCOJwVo)
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/FalseG0d/PythonBackdoor.svg?style=flat-square
-[contributors-url]: https://github.com/FalseG0d/PythonBackdoor/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/FalseG0d/PythonBackdoor.svg?style=flat-square
-[forks-url]: https://github.com/FalseG0d/PythonBackdoor/network/members
-[stars-shield]: https://img.shields.io/github/stars/FalseG0d/PythonBackdoor.svg?style=flat-square
-[stars-url]: https://github.com/FalseG0d/PythonBackdoor/stargazers
-[issues-shield]: https://img.shields.io/github/issues/FalseG0d/PythonBackdoor.svg?style=flat-square
-[issues-url]: https://github.com/FalseG0d/PythonBackdoor/issues
-[license-shield]: https://img.shields.io/github/license/FalseG0d/PythonBackdoor.svg?style=flat-square
-[license-url]: https://github.com/FalseG0d/PythonBackdoor/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/apoorv-garg-137137171/
 [product-screenshot]: images/pexel.jpeg
