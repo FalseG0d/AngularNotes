@@ -5,8 +5,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-# Basic Hacking
+# Angular Notes
 
 <!-- PROJECT LOGO -->
 <br />
@@ -18,15 +17,15 @@
   <h3 align="center">Made By FalseG0d</h3>
 
   <p align="center">
-    A suite of C Programs implementing some of the basic Hacking Malwares(Backdoors, Keylogers etc). <br>Note. The reporsitory may require you to download some other requirenments.
+    A suite of C Programs implementing some of the AngularNotes Malwares(Backdoors, Keylogers etc). <br>Note. The reporsitory may require you to download some other requirenments.
     <br />
     <a href="https://github.com/FalseG0d?tab=repositories"><strong>Explore Other Projects »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/FalseG0d/CMalware/issues">Report Bug</a>
+    <a href="https://github.com/FalseG0d/AngularNotes/issues">Report Bug</a>
     ·
-    <a href="https://github.com/FalseG0d/CMalware/issues">Request Feature</a>
+    <a href="https://github.com/FalseG0d/AngularNotes/issues">Request Feature</a>
   </p>
 </p>
 
@@ -53,7 +52,7 @@ Simply Open the App or Feature you wish to learn by selecting a folder of your c
 1. Clone the repo
 
 ```sh
-git clone https://github.com/FalseG0d/CMalware.git
+git clone https://github.com/FalseG0d/AngularNotes.git
 ```
 
 2. Browse through the files to find an appropriate scene/effect.
@@ -83,7 +82,7 @@ Any and all creative changes or effectss welcomed by us. Just make sure to follo
 2. Clone Repository.
 
 ```sh
-git clone https://github.com/FalseG0d/CMalware.git
+git clone https://github.com/FalseG0d/AngularNotes.git
 ```
 
 3. Update Packages
@@ -104,7 +103,7 @@ git clone https://github.com/FalseG0d/CMalware.git
 
 Apoorv Garg - [@ApoorvG03132459](https://twitter.com/ApoorvG03132459)
 
-Project Link: [https://github.com/FalseG0d/CMalware](https://github.com/FalseG0d/CMalware)
+Project Link: [https://github.com/FalseG0d/AngularNotes](https://github.com/FalseG0d/AngularNotes)
 
 ## License
 
@@ -116,16 +115,16 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/FalseG0d/CMalware.svg?style=flat-square
-[contributors-url]: https://github.com/FalseG0d/CMalware/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/FalseG0d/CMalware.svg?style=flat-square
-[forks-url]: https://github.com/FalseG0d/CMalware/network/members
-[stars-shield]: https://img.shields.io/github/stars/FalseG0d/CMalware.svg?style=flat-square
-[stars-url]: https://github.com/FalseG0d/CMalware/stargazers
-[issues-shield]: https://img.shields.io/github/issues/FalseG0d/CMalware.svg?style=flat-square
-[issues-url]: https://github.com/FalseG0d/CMalware/issues
-[license-shield]: https://img.shields.io/github/license/FalseG0d/CMalware.svg?style=flat-square
-[license-url]: https://github.com/FalseG0d/CMalware/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/FalseG0d/AngularNotes.svg?style=flat-square
+[contributors-url]: https://github.com/FalseG0d/AngularNotes/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/FalseG0d/AngularNotes.svg?style=flat-square
+[forks-url]: https://github.com/FalseG0d/AngularNotes/network/members
+[stars-shield]: https://img.shields.io/github/stars/FalseG0d/AngularNotes.svg?style=flat-square
+[stars-url]: https://github.com/FalseG0d/AngularNotes/stargazers
+[issues-shield]: https://img.shields.io/github/issues/FalseG0d/AngularNotes.svg?style=flat-square
+[issues-url]: https://github.com/FalseG0d/AngularNotes/issues
+[license-shield]: https://img.shields.io/github/license/FalseG0d/AngularNotes.svg?style=flat-square
+[license-url]: https://github.com/FalseG0d/AngularNotes/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/apoorv-garg-137137171/
 [product-screenshot]: images/pexels.jpeg
