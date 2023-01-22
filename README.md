@@ -35,7 +35,6 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-
 * [Getting Started](#getting-started)
 * [Prerquisites](#prerquisites)
 * [Content List](#content-list)
