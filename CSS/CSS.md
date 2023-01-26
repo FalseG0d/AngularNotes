@@ -21,4 +21,8 @@ HTML-> Where an HTML element is present while CSS describes how it looks.
 3. html element: Apply style to all the HTML elements used in the HTML page.
 4. All Selector: Used as * in the CSS File. Used to overwrite the default CSS values in an HTML page.
 
+## CSS3
+
+1. The Box Model: Consider each HTML Tag as a Box on the screen with padding, margin, border and content.
+
 ## Bootstrap
