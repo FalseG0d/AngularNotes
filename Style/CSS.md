@@ -24,5 +24,10 @@ HTML-> Where an HTML element is present while CSS describes how it looks.
 ## CSS3
 
 1. The Box Model: Consider each HTML Tag as a Box on the screen with padding, margin, border and content.
+2. 
 
-## Bootstrap
+3. Float: By default the HTML elements are added one after another in a line from top to bottom, to change this we can use the float attribute in css to make the next element to be added to the provided position of the previous element.
+
+4. Clear: Once we apply the float property on a div we might want to ensure that this ends for the next element. So we can use the clear attribute here to ensure that the left/right side of the html element is clear of any other HTML element.
+
+5. Display: This attribute can be set to either block/inline. This will ensure that the element we have set this to is displayed as a seperate "block" ie in the next line unless we set the float attribute. Or is displayed in a single line as text.
