@@ -24,7 +24,8 @@ HTML-> Where an HTML element is present while CSS describes how it looks.
 ## CSS3
 
 1. The Box Model: Consider each HTML Tag as a Box on the screen with padding, margin, border and content.
-2. 
+
+2. Poistion: Can be absolute or relative or fixed. Absolute = the div will position itself with no regard to the neighbouring divs while Relative will keep these in mind while the Fixed will create a sticky div.
 
 3. Float: By default the HTML elements are added one after another in a line from top to bottom, to change this we can use the float attribute in css to make the next element to be added to the provided position of the previous element.
 
